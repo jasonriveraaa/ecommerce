@@ -1,0 +1,66 @@
+.cart-body {
+  display: flex;
+}
+.product-table,
+.total-price {
+  border: 1px solid #e6e6e6;
+  margin-top: 2rem;
+}
+.product-table td {
+  vertical-align: middle;
+}
+.product-table {
+  width: 65%;
+  margin-right: 3rem;
+  text-align: center;
+}
+.product-table th:nth-child(1) {
+  text-align: start;
+}
+.product-table td:nth-child(1) {
+  text-align: start;
+}
+.product-table tbody tr {
+  padding: 2rem 0;
+}
+.total-price {
+  width: 35%;
+  padding: 2rem;
+}
+
+/* Quantity input button */
+.skin-2 .num-in {
+  background: #ffffff;
+  height: 40px;
+  width: 120px;
+  float: left;
+}
+.skin-2 .num-in span {
+  width: 40%;
+  display: block;
+  height: 40px;
+  float: left;
+  position: relative;
+}
+.skin-2 .num-in span:before,
+.skin-2 .num-in span:after {
+  content: "";
+  position: absolute;
+  background-color: #667780;
+  height: 2px;
+  width: 10px;
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -5px;
+}
+.skin-2 .num-in span.plus:after {
+  transform: rotate(90deg);
+}
+.skin-2 .num-in input {
+  float: left;
+  width: 20%;
+  height: 40px;
+  border: none;
+  text-align: center;
+}
